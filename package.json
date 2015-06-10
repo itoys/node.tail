@@ -1,7 +1,7 @@
 {
-  "name": "yes-tail",
+  "name": "node.tail",
   "version": "0.0.1",
-  "description": "Simple tail implementation for node js",
+  "description": "Simple tail implementation for node.js",
   "keywords": [
     "tail",
     "tail -f",

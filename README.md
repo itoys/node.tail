@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm install yes-tail
+$ npm install node.tail
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install yes-tail
 >new Tail(target, options);
 
 ```javascript
-var Tail = require('yes-tail');
+var Tail = require('node.tail');
 var tailFile = new Tail('fileName.log',{follow: true, lines: 20});
 tailFile.on('line', console.log);
 tailFile.on('error', console.error);
